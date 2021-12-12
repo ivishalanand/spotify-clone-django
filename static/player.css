@@ -1,3 +1,5 @@
+/* https://colorhunt.co/palette/ffd5cdefbbcfc3aed68675a9 */
+
 html, body, .grid-container {
     height: 100%;
     margin: 0;
@@ -6,6 +8,7 @@ html, body, .grid-container {
     user-select: none;
     overflow-y: hidden;
 }
+
 a {
     text-decoration: none;
     color: inherit;
@@ -45,6 +48,7 @@ input:invalid {
     font-family: inherit;
     font-weight: 700;
     font-size: 14px;
+    color: black;
 }
 
 .likedImg {
@@ -59,7 +63,7 @@ input:invalid {
 
 .sidebar {
     grid-area: sidebar;
-    background: #040404;
+    background: #C3AED6;
     position: relative;
 
 }
@@ -172,7 +176,7 @@ input:invalid {
 
 .navbar {
     grid-area: navbar;
-    background: #070707;
+    background: #8675A9;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -271,7 +275,7 @@ input:invalid {
 }
 .main {
     grid-area: main;
-    background: #121212;
+    background: #FFDEDE;
     overflow-x: hidden;
 }
 
@@ -414,13 +418,14 @@ input:invalid {
 
 .card {
     width: 220px;
-    background: #181818;
+    background: #EFBBCF;
     display: flex;
     flex-direction: column;
     border-radius: 6px;
     /*cursor: default;*/
     transition: 0.25s ease-in-out;
     margin-right: 16px;
+    box-shadow: 0px 0px 10px grey;
 }
 
 .albumcover {
@@ -460,7 +465,7 @@ input:invalid {
 }
 
 .albumtitle {
-    color: white;
+    color: black;
     margin-left: 20px;
     line-height: 16px;
 
@@ -495,7 +500,7 @@ input:invalid {
 
 .playbar {
     grid-area: playbar;
-    background: #282828;
+    background: #312C51;
     display: flex;
     align-items: center;
     padding: 0 16px;
